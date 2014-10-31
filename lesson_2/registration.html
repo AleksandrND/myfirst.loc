@@ -13,6 +13,62 @@
 			<li>Регистрация</li>
 			<li><a href="contacts.html">Контакты</a></li>
 		</ul>
+		<form method="post" action="file.php">
+			<fieldset>
+				<legend><h1>Регистрация</h1></legend>
+				<label>
+					Фамилия<br>
+					<input type="text" name="surname"><br>
+				</label>
+				<label>
+					Имя<br>
+					<input type="text" name="first_name"><br>
+				</label>
+				<label>
+					Отчество<br>
+					<input type="text" name="patronymic"><br>
+				</label>
+				Пол:<br>
+				М<input type="radio" name="sex"><br>
+				Ж<input type="radio" name="sex"><br>
+				Дата рождения:<br>
+				День:
+				<select name="year">
+					<option value="2">2</option>
+					<option value="5">5</option>
+					<option value="28">28</option>
+				</select>
+				Месяц:
+				<select name="year">
+					<option value="2">февраль</option>
+					<option value="6">июнь</option>
+					<option value="11">ноябрь</option>
+				</select>
+				Год:
+				<select name="year">
+					<option value="1981">1981</option>
+					<option value="1982">1982</option>
+					<option value="1987">1987</option>
+				</select><br>
+				Ваши увлечения:<br>
+				<input type="checkbox" name="sport">Спорт<br>
+				<input type="checkbox" name="game">Игры<br>
+				<input type="checkbox" name="fishing">Рыбалка<br>
+				О себе:<br>
+				<textarea name="opinion"></textarea><br>
+				<input type="file" name="ava"><br>
+				Адрес сайта:<br>
+				<input type="text" name="login" value="http://"><br>
+				Логин<br>
+				<input type="text" name="login"><br>
+				Пароль<br>
+				<input type="password" name="password"><br>
+				<p>
+					<input type="reset" value="Очистить">
+					<input type="submit" value="Зарегистрироваться">
+				</p>
+			</fieldset>
+		</form>
 		<hr>
 		<footer>&copy; Все права защищены</footer>
 	</body>
