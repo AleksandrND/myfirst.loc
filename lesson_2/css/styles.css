@@ -1,0 +1,52 @@
+body{
+	background: white url(../img/img.jpg) no-repeat top right;
+	background-size: 15%;
+}
+h2{
+	border-bottom: 2px solid red;
+	width: 50%;
+}
+p.chapter{
+	text-indent: 20px;
+}
+.menu a{
+	color: green;
+	font-style: italic;
+	font-size: 20px;
+}
+.page{
+	color: red;
+	font-style: oblique;
+	font-size: 20px;
+}
+.heading{
+	color: #8d0707;
+	font-style: oblique;
+	font-size: 25px;
+	text-decoration: none;
+}
+.briefly{
+	background-color: #e1df9e;
+}
+.jump{
+	color: #8b475d;
+}
+.work{
+	text-align: center;
+}
+.chapter:first-letter{
+	color: red;
+	font-size: 30px;
+	font-style: italic;
+}
+.further:hover{
+	color: #00cd00 !important;
+	font-size: 20px;
+	text-decoration: none;
+}
+/* Не понял */
+/* #catalog > li{
+	list-style-type: none;
+	list-style-image: url(../img/house_sale.png);
+	font-size: 30px;
+} */
