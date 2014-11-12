@@ -2,12 +2,19 @@ body{
 	background: white url(../img/img.jpg) no-repeat top right;
 	background-size: 15%;
 }
+#screen{
+	background: url(../img/img.jpg) no-repeat top right, url(../img/stars.jpg) repeat;
+	background-size: 15%;
+}
+#screen img{
+	border: 5px solid #FF1493;
+}
+#screen img:hover{
+	border-color: transparent;
+}
 h2{
 	border-bottom: 2px solid red;
 	width: 50%;
-}
-p.chapter{
-	text-indent: 20px;
 }
 .menu a{
 	color: green;
@@ -34,19 +41,53 @@ p.chapter{
 .work{
 	text-align: center;
 }
-.chapter:first-letter{
+.chapter p:first-letter{
 	color: red;
 	font-size: 30px;
 	font-style: italic;
+	text-indent: 20px;
+}
+.chapter p{
+	text-indent: 20px;
 }
 .further:hover{
 	color: #00cd00 !important;
 	font-size: 20px;
 	text-decoration: none;
 }
-/* Не понял */
-/* #catalog > li{
-	list-style-type: none;
+#catalog > li > ul{
 	list-style-image: url(../img/house_sale.png);
+	font-size: 20px;
+	background-color: #FFD700;
+}
+#catalog{
+	list-style-image: url(../img/blue_folder.png);
 	font-size: 30px;
-} */
+	background-color: #76EE00;
+	width: 50%;
+}
+.new:after{
+	content: "New";
+	background: red;
+	color: yellow;
+	vertical-align: top;
+}
+.field{
+	width: 20%;
+}
+.names{
+	text-transform: capitalize;
+}
+label.border:hover{
+	border: 2px dotted black;
+}
+#mail:focus{
+	background-color: #FF1493;
+	color: #FFFF00;
+}
+#reset:active{
+	background: green;
+}
+#submit:active{
+	background: red;
+}
