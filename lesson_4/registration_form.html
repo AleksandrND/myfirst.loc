@@ -7,21 +7,40 @@
 	</head>
 	<body>
 		<form method="post" action="file.php">
-			<table class="main">
+			<table id="main">
 				<tr>
-					<td><label>Фамилия</label></td>
-					<td><input type="text" name="surname" class="field names"></td>
+					<td>
+						<label for="surname">Фамилия</label>
+					</td>
+					<td class="input_field">
+						<input id="surname" type="text" name="surname">
+					</td>
 				</tr>
 				<tr>
-					<td>3</td>
-					<td>4</td>
+					<td>
+						<label for="firstname">Имя</label>
+					</td>
+					<td class="input_field">
+						<input id="firstname" type="text" name="firstname">
+					</td>
 				</tr>
 				<tr>
-					<td>5</td>
-					<td>6</td>
+					<td>
+						Ваш пол
+					</td>
+					<td>
+						<label>
+							<input type="radio" name="sex">М
+						</label><br>
+						<label>
+							<input type="radio" name="sex">Ж
+						</label><br>
+					</td>
 				</tr>
-				<tr>
-					<td colspan="2">7</td>
+				<tr class="input_field">
+					<td colspan="2">
+						<input type="submit" value="Отправить">
+					</td>
 				</tr>
 			</table>
 		</form>

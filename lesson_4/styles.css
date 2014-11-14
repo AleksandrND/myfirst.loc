@@ -35,3 +35,13 @@ table{
 .cell{
 	height: 50px;
 }
+#main{
+	width: 20%;
+	margin: 0 auto;
+}
+#main td{
+	padding: 5px;
+}
+.input_field{
+	text-align: center;
+}
