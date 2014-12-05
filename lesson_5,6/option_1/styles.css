@@ -1,0 +1,64 @@
+div{
+	width: 150px;
+	height: 150px;
+}
+#main{
+	margin-right: 15px;
+	float: left;
+	border: 1px solid #000; 	
+	width: 300px;
+	height: 300px;
+}
+#green{
+	position: relative;
+	background: green;
+}
+#white{
+	background: white;
+	position: relative;
+	bottom: 150px;
+	left: 150px;
+}
+#black{
+	position: relative;
+	background: black;
+	bottom: 150px;
+}
+#dark_red{
+	position: relative;
+	background: #ff0033;
+	bottom: 300px;
+	left: 150px;
+}
+#right{
+	background: #C0C0C0;
+	float: left;
+	width: 470px;
+	border: 1px solid #000; 
+	height: 270px;
+	padding: 30 0 0 30;
+}
+#red{
+	background: red;
+	height: 240px;
+	width: 440px;
+}
+.blue{
+	position: absolute;
+	background: blue;
+}
+#n1{
+	top: 250px;
+	left: 250px;
+	z-index: -1;
+}
+#n2{
+	top: 250px;
+	left: 470px;
+	z-index: 1;
+}
+#n3{
+	top: 250px;
+	left: 700px;
+	z-index: -2;
+}
