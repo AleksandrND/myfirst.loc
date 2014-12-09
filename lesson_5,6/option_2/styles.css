@@ -1,0 +1,33 @@
+body{
+	text-align: center;
+}
+#fon{
+	border: 1px solid black;
+	display: inline-block;
+}
+#fon > div{
+	float: left;
+	text-align: center;
+	border: 1px solid transparent;
+	margin: 5px;
+}
+#fon > div:hover{
+	border: 1px solid black;
+}
+#fon a{
+	display: block;
+	text-decoration: none;
+	color: #ff0;
+	padding: 10px;
+	background: maroon;
+	transition: 2s all;
+	-webkit-transition: 2s all;
+	-moz-transition: 2s all;
+}
+#fon a:hover{
+	background: #0f0;
+	color: #00f;
+}
+#fon img{
+	margin: 10px;
+}
